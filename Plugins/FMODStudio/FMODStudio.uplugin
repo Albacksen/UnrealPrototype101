@@ -1,0 +1,33 @@
+{
+    "FileVersion" : 3,
+	
+	"FriendlyName" : "FMOD Studio Integration",
+	"Version" : 20001,
+	"VersionName" : "2.00.01",
+	"CreatedBy" : "Firelight Technologies",
+	"CreatedByURL" : "http://fmod.com",
+	"Description" : "FMOD Studio Integration.",
+	"Category" : "Audio",
+	"EnabledByDefault" : true,
+	
+	"Modules" :
+	[
+		{
+			"Name": "FMODStudio",
+			"Type": "CookedOnly",
+			"LoadingPhase": "PreEarlyLoadingScreen"
+		},
+		{
+			"Name": "FMODStudio",
+			"Type": "Editor",
+			"LoadingPhase": "PreDefault"
+		},
+		{
+			"Name" : "FMODStudioEditor",
+			"Type" : "Editor"
+		}
+	],
+
+	"CanContainContent" : true,
+	"Installed" : true
+}
